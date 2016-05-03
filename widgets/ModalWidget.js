@@ -140,6 +140,9 @@ module.exports = React.createClass({
           </TouchableOpacity>
         );
       },
+      updateDisplayValue () {
+        _self.refreshDisplayableValue();
+      }
     };
     
     // console.log('this.props.openModal from modal widget');
